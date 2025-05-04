@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Basic meta tags for character set and viewport -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blooms & Petals - Premium Flower Shop</title>
+    <!-- Link to external CSS file -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Main header section with logo and navigation -->
+    <header class="header">
+        <h1 class="logo" id="logo">Blooms & Petals</h1>
+        <nav class="nav">
+            <ul>
+                <li><a href="#featured">Featured</a></li>
+                <li><a href="#bouquets">Bouquets</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <!-- User preference buttons -->
+        <div class="user-pref">
+            <button id="theme-toggle">Toggle Dark Mode</button>
+            <button id="animation-toggle">Toggle Animations</button>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero banner section -->
+        <section class="hero">
+            <div class="hero-content">
+                <h2>Beautiful Flowers for Every Occasion</h2>
+                <p>Fresh, hand-picked flowers delivered to your doorstep</p>
+                <!-- CTA button with pulse animation class -->
+                <button class="cta-button pulse">Shop Now</button>
+            </div>
+        </section>
+
+        <!-- Featured flowers section -->
+        <section id="featured" class="featured">
+            <h2>Featured Flowers</h2>
+            <div class="flower-grid">
+                <!-- Individual flower cards -->
+                <div class="flower-card">
+                    <img src="https://source.unsplash.com/random/300x300/?rose" alt="Red Roses" class="flower-img">
+                    <h3>Red Roses</h3>
+                    <p class="price">$29.99</p>
+                    <!-- Add to cart button with bounce animation -->
+                    <button class="add-to-cart bounce">Add to Cart</button>
+                </div>
+                <div class="flower-card">
+                    <img src="https://source.unsplash.com/random/300x300/?tulip" alt="Tulips" class="flower-img">
+                    <h3>Tulips</h3>
+                    <p class="price">$24.99</p>
+                    <button class="add-to-cart bounce">Add to Cart</button>
+                </div>
+                <div class="flower-card">
+                    <img src="https://source.unsplash.com/random/300x300/?sunflower" alt="Sunflowers" class="flower-img">
+                    <h3>Sunflowers</h3>
+                    <p class="price">$19.99</p>
+                    <button class="add-to-cart bounce">Add to Cart</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Bouquets section -->
+        <section id="bouquets" class="bouquets">
+            <h2>Specialty Bouquets</h2>
+            <div class="bouquet-container">
+                <!-- Bouquet cards -->
+                <div class="bouquet-card">
+                    <img src="https://source.unsplash.com/random/400x400/?wedding,bouquet" alt="Wedding Bouquet" class="bouquet-img">
+                    <div class="bouquet-info">
+                        <h3>Wedding Collection</h3>
+                        <p>Starting at $49.99</p>
+                        <!-- View details button with slide-in animation -->
+                        <button class="view-details slide-in">View Details</button>
+                    </div>
+                </div>
+                <div class="bouquet-card">
+                    <img src="https://source.unsplash.com/random/400x400/?anniversary,bouquet" alt="Anniversary Bouquet" class="bouquet-img">
+                    <div class="bouquet-info">
+                        <h3>Anniversary Special</h3>
+                        <p>Starting at $39.99</p>
+                        <button class="view-details slide-in">View Details</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Newsletter subscription section -->
+        <section class="newsletter">
+            <h2>Subscribe to Our Newsletter</h2>
+            <form id="newsletter-form">
+                <input type="email" placeholder="Your email address" required>
+                <!-- Submit button with rotate animation -->
+                <button type="submit" class="submit-btn rotate">Subscribe</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer section -->
+    <footer class="footer">
+        <p>&copy; 2023 Blooms & Petals. All rights reserved.</p>
+    </footer>
+
+    <!-- Link to external JavaScript file -->
+    <script src="script.js"></script>
+</body>
+</html>
